@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style scoped>
-.alert-style{
+.alert{
   margin: -1px;
   background-color: var(--dark_hue);
   color: white;
