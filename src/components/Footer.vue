@@ -117,7 +117,6 @@ export default {
   background-color: var(--dark_hue);
   color: white;
   margin: auto;
-  height: 90vh;
   padding: 60px;
 }
 .align-center {
@@ -161,9 +160,6 @@ export default {
 }
 
 @media only screen and (min-width: 768px) {
-  .marginator {
-    height: 70vh;
-  }
   .second {
     padding: 40px;
   }
