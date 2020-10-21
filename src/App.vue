@@ -3,6 +3,7 @@
     <Navbar class="sticky"/>
     <Hero />
     <Products />
+    <CustomDesign />
     <Footer />
   </div>
 </template>
@@ -12,6 +13,7 @@ import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
 import Footer from './components/Footer.vue'
 import Products from './components/Products.vue'
+import CustomDesign from './components/CustomDesign.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Navbar,
     Hero,
     Footer,
-    Products
+    Products,
+    CustomDesign
   }
 }
 </script>
