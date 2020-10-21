@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-alert show dismissible class="alert-style">
-      <strong>24 HOUR</strong> ONLINE ORDERING AND <strong>CONTACTLESS DELIVERY</strong> FOR ALL OREDERS!
+      <strong class="display-5">COVID UPDATE:  </strong><strong>24 HOUR</strong> ONLINE ORDERING, <strong>CONTACTLESS DELIVERY</strong> FOR ALL ORDERS!
     </b-alert>
   </div>
 </template>
