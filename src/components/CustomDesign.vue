@@ -3,8 +3,8 @@
     <div class="align-center">
       <div class="pt-5 text-center">
         <h1 class="big-text">CUSTOM DESIGN</h1>
-        <h3 class="mt-5">YOU DREAM IT, WE CREATE IT</h3>
-        <div class="mt-5 pt-5"> <b-link href="#" style="color:white;"><u>VIEW GALLERY</u></b-link></div>
+        <h3 class="mt-3">YOU DREAM IT, WE CREATE IT</h3>
+        <div class="mt-3 pt-5"> <b-link href="#" style="color:white;"><u>VIEW GALLERY</u></b-link></div>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@ export default {
 <style scoped>
   .banner {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background: white;
     overflow: hidden;
     }

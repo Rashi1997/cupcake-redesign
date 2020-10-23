@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 .bv-example-row {
-  height: 80vh;
+  height: 100vh;
   background-image: url("../assets/cup.jpg");
   background-size: cover;
   margin: 0;
