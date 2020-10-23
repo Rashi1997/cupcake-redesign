@@ -1,4 +1,5 @@
 # cupcake-redesign
+[![Deploy](https://img.shields.io/badge/deploy-stable-brightgreen)](https://frozen-basin-88210.herokuapp.com/)
 
 ## Project setup
 ```
