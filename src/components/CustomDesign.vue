@@ -3,7 +3,7 @@
     <div class="align-center">
       <div class="pt-5 text-center">
         <h1 class="big-text">CUSTOM DESIGN</h1>
-        <h3 class="mt-3">YOU DREAM IT, WE CREATE IT</h3>
+        <h2 class="mt-3">YOU DREAM IT, WE CREATE IT</h2>
         <div class="mt-3 pt-5"> <b-link href="#" style="color:white;"><u>VIEW GALLERY</u></b-link></div>
       </div>
     </div>

@@ -25,21 +25,21 @@
           <b-row><b-link class="link" href="#"><u>Shipping & Delivery</u></b-link></b-row>
         </b-col>
         <b-col>
-          <b-row class="link"><b-icon-map></b-icon-map><h5 class="link">Toronto, Canada</h5></b-row>
-          <b-row class="link"><b-icon-telephone-fill></b-icon-telephone-fill><h5 class="ml-2">
-            <span class="link"><u>647-478-9464</u></span>
-            </h5></b-row>
-          <b-row class="link"><b-icon-clock-history></b-icon-clock-history><h5 class="ml-2">
+          <b-row class="link"><b-icon-map></b-icon-map><p class="link">Toronto, Canada</p></b-row>
+          <b-row class="link"><b-icon-telephone-fill></b-icon-telephone-fill><p class="ml-2">
+            <span class="link">647-478-9464</span>
+            </p></b-row>
+          <b-row class="link"><b-icon-clock-history></b-icon-clock-history><p class="ml-2">
             <span class="link">
             &nbsp;&nbsp;Monday - Saturday:&nbsp;&nbsp;
             &nbsp;&nbsp;7am - 10pm<br>
             &nbsp;&nbsp;Sunday:&nbsp;&nbsp;
             &nbsp;&nbsp;7am - 10pm(no pick ups, deliveries for 2doz or more)  
             </span>
-          </h5></b-row>
-          <b-row class="link"><b-icon-envelope-fill></b-icon-envelope-fill><h5 class="ml-2">
-            <b-link href="inquiry@torontocupcake.com" class="link" disabled>inquiry@torontocupcake.com</b-link>
-            </h5></b-row>
+          </p></b-row>
+          <b-row class="link"><b-icon-envelope-fill></b-icon-envelope-fill><p class="ml-2">
+            <b-link href="#" class="link" disabled>inquiry@torontocupcake.com</b-link>
+            </p></b-row>
         </b-col>
       </b-row>
       <section class="third text-right">Copyright 2020 @ Me ;)</section>
@@ -74,21 +74,21 @@
       </b-row>
       <b-row class="second">
         <b-col>
-          <b-row class="link"><b-icon-map></b-icon-map><h5 class="link">Toronto, Canada</h5></b-row>
-          <b-row class="link"><b-icon-telephone-fill></b-icon-telephone-fill><h5 class="ml-2">
-            <span class="link"><u>647-478-9464</u></span>
-            </h5></b-row>
-          <b-row class="link"><b-icon-clock-history></b-icon-clock-history><h5 class="ml-2">
+          <b-row class="link"><b-icon-map></b-icon-map><p class="link">Toronto, Canada</p></b-row>
+          <b-row class="link"><b-icon-telephone-fill></b-icon-telephone-fill><p class="ml-2">
+            <span class="link">647-478-9464</span>
+            </p></b-row>
+          <b-row class="link"><b-icon-clock-history></b-icon-clock-history><p class="ml-2">
             <span class="link">
             &nbsp;&nbsp;Monday - Saturday:&nbsp;&nbsp;
             &nbsp;&nbsp;7am - 10pm<br>
             &nbsp;&nbsp;Sunday:&nbsp;&nbsp;
             &nbsp;&nbsp;7am - 10pm(no pick ups, deliveries for 2doz or more)  
             </span>
-          </h5></b-row>
-          <b-row class="link"><b-icon-envelope-fill></b-icon-envelope-fill><h5 class="ml-2">
-            <b-link href="inquiry@torontocupcake.com" class="link" disabled>inquiry@torontocupcake.com</b-link>
-            </h5></b-row>
+          </p></b-row>
+          <b-row class="link"><b-icon-envelope-fill></b-icon-envelope-fill><p class="ml-2">
+            <b-link href="#" class="link" disabled>inquiry@torontocupcake.com</b-link>
+            </p></b-row>
         </b-col>
       </b-row>
       <section class="third text-right">Copyright 2020 @ Me ;)</section>

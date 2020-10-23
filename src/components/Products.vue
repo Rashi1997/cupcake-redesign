@@ -3,17 +3,17 @@
     <b-container fluid>
       <b-row class="mb-5 tab">
         <h1 class="big-text align-center text-center">TRENDING TREATS</h1>
-        <h3 class="text align-center text-center">BEST SELLING TREATS & GIFT BOXES</h3>
+        <h2 class="text align-center text-center">BEST SELLING TREATS & GIFT BOXES</h2>
       </b-row>
       <b-row class="mb-5 mobile">
         <h1 class="big-text align-center text-center">TRENDING TREATS</h1>
-        <h3 class="text align-center text-center">BEST SELLING TREATS & GIFT BOXES</h3>
+        <h2 class="text align-center text-center">BEST SELLING TREATS & GIFT BOXES</h2>
       </b-row>
       <b-row>
         <b-col md="3" lg="3" class="trending text-left desktop">
           <br><br><br><br><br>
           <h1 class="big-text align-center text-left">TRENDING TREATS</h1>
-          <h3 class="text align-center text-left">BEST SELLING TREATS & GIFT BOXES</h3>
+          <h2 class="text align-center text-left">BEST SELLING TREATS & GIFT BOXES</h2>
         </b-col>
         <b-col class="cards desktop">
           <div>
@@ -32,10 +32,10 @@
             >
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/download.svg')">
+              <b-carousel-slide :img-src="require('../assets/download.svg')" img-alt="white background image1">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/chocolatehazelnut.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/chocolatehazelnut.jpg')" img-alt="chocolate hazelnut" img-top>
                     <b-card-text>
                       <span>$3.25</span>
                     </b-card-text>
@@ -44,7 +44,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/CanadaDay.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/CanadaDay.jpg')" img-alt="Canada Day" img-top>
                     <b-card-text>
                       <span>$3.26</span>
                     </b-card-text>
@@ -53,7 +53,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/chocolateoreo.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/chocolateoreo.jpg')" img-alt="chocolate oreo" img-top>
                     <b-card-text>
                       <span>$3.24</span>
                     </b-card-text>
@@ -62,7 +62,7 @@
                     </template>
                   </b-card>
                   
-                  <b-card :img-src="require('../assets/ChocolateVanilla.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/ChocolateVanilla.jpg')" img-alt="Chocolate Vanilla" img-top>
                     <b-card-text>
                       <span>$4.25</span>
                     </b-card-text>
@@ -76,10 +76,10 @@
               </b-carousel-slide>
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/download.svg')">
+              <b-carousel-slide :img-src="require('../assets/download.svg')" img-alt="white background image2">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/Easter.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/Easter.jpg')" img-alt="Easter" img-top>
                     <b-card-text>
                       <span>$3.75</span>
                     </b-card-text>
@@ -88,7 +88,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/Face.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/Face.jpg')" img-alt="Face" img-top>
                     <b-card-text>
                       <span>$3.98</span>
                     </b-card-text>
@@ -97,7 +97,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/lemon_vanilla.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/lemon_vanilla.jpg')" img-alt="lemon vanilla" img-top>
                     <b-card-text>
                       <span>$3.45</span>
                     </b-card-text>
@@ -106,7 +106,7 @@
                     </template>
                   </b-card>
                   
-                  <b-card :img-src="require('../assets/PrideDay.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/PrideDay.jpg')" img-alt="Pride Day" img-top>
                     <b-card-text>
                       <span>$3.25</span>
                     </b-card-text>
@@ -120,10 +120,10 @@
               </b-carousel-slide>
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/download.svg')">
+              <b-carousel-slide :img-src="require('../assets/download.svg')" img-alt="white background image3">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/redvelvetfudge.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/redvelvetfudge.jpg')" img-alt="red velvet fudge" img-top>
                     <b-card-text>
                       <span>$3.05</span>
                     </b-card-text>
@@ -132,7 +132,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/StPatricksDay.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/StPatricksDay.jpg')" img-alt="St Patricks Day" img-top>
                     <b-card-text>
                       <span>$4.25</span>
                     </b-card-text>
@@ -141,7 +141,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/vanillachocolateganache.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/vanillachocolateganache.jpg')" img-alt="vanilla chocolate ganache" img-top>
                     <b-card-text>
                       <span>$3.21</span>
                     </b-card-text>
@@ -150,7 +150,7 @@
                     </template>
                   </b-card>
                   
-                  <b-card :img-src="require('../assets/VanillaStrawberry.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/VanillaStrawberry.jpg')" img-alt="Vanilla Strawberry" img-top>
                     <b-card-text>
                       <span>$3.99</span>
                     </b-card-text>
@@ -184,10 +184,10 @@
             >
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/download.svg')">
+              <b-carousel-slide :img-src="require('../assets/download.svg')" img-alt="white background image4">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/chocolatehazelnut.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/chocolatehazelnut.jpg')" img-alt="chocolate hazelnut" img-top>
                     <b-card-text>
                       <span>$3.25</span>
                     </b-card-text>
@@ -196,7 +196,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/CanadaDay.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/CanadaDay.jpg')" img-alt="Canada Day" img-top>
                     <b-card-text>
                       <span>$3.26</span>
                     </b-card-text>
@@ -205,7 +205,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/chocolateoreo.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/chocolateoreo.jpg')" img-alt="chocolate oreo" img-top>
                     <b-card-text>
                       <span>$3.24</span>
                     </b-card-text>
@@ -214,7 +214,7 @@
                     </template>
                   </b-card>
                   
-                  <b-card :img-src="require('../assets/ChocolateVanilla.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/ChocolateVanilla.jpg')" img-alt="Chocolate Vanilla" img-top>
                     <b-card-text>
                       <span>$4.25</span>
                     </b-card-text>
@@ -228,10 +228,10 @@
               </b-carousel-slide>
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/download.svg')">
+              <b-carousel-slide :img-src="require('../assets/download.svg')" img-alt="white background image5">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/Easter.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/Easter.jpg')" img-alt="Easter" img-top>
                     <b-card-text>
                       <span>$3.75</span>
                     </b-card-text>
@@ -240,7 +240,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/Face.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/Face.jpg')" img-alt="Face" img-top>
                     <b-card-text>
                       <span>$3.98</span>
                     </b-card-text>
@@ -249,7 +249,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/lemon_vanilla.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/lemon_vanilla.jpg')" img-alt="lemon vanilla" img-top>
                     <b-card-text>
                       <span>$3.45</span>
                     </b-card-text>
@@ -258,7 +258,7 @@
                     </template>
                   </b-card>
                   
-                  <b-card :img-src="require('../assets/PrideDay.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/PrideDay.jpg')" img-alt="Pride Day" img-top>
                     <b-card-text>
                       <span>$3.25</span>
                     </b-card-text>
@@ -272,10 +272,10 @@
               </b-carousel-slide>
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/download.svg')">
+              <b-carousel-slide :img-src="require('../assets/download.svg')" img-alt="white background image6">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/redvelvetfudge.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/redvelvetfudge.jpg')" img-alt="red velvet fudge" img-top>
                     <b-card-text>
                       <span>$3.05</span>
                     </b-card-text>
@@ -284,7 +284,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/StPatricksDay.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/StPatricksDay.jpg')" img-alt="St Patricks Day" img-top>
                     <b-card-text>
                       <span>$4.25</span>
                     </b-card-text>
@@ -293,7 +293,7 @@
                     </template>
                   </b-card>
 
-                  <b-card :img-src="require('../assets/vanillachocolateganache.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/vanillachocolateganache.jpg')" img-alt="vanilla chocolate ganache" img-top>
                     <b-card-text>
                       <span>$3.21</span>
                     </b-card-text>
@@ -302,7 +302,7 @@
                     </template>
                   </b-card>
                   
-                  <b-card :img-src="require('../assets/VanillaStrawberry.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/VanillaStrawberry.jpg')" img-alt="Vanilla Strawberry" img-top>
                     <b-card-text>
                       <span>$3.99</span>
                     </b-card-text>
@@ -336,10 +336,10 @@
             >
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image7">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/chocolatehazelnut.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/chocolatehazelnut.jpg')" img-alt="chocolatehazelnut" img-top>
                     <b-card-text>
                       <span>$3.25</span>
                     </b-card-text>
@@ -350,10 +350,10 @@
                 </b-card-group>
               </b-carousel-slide>
 
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image111">
 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/CanadaDay.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/CanadaDay.jpg')" img-alt="CanadaDay" img-top>
                     <b-card-text>
                       <span>$3.26</span>
                     </b-card-text>
@@ -364,11 +364,11 @@
                 </b-card-group>
               </b-carousel-slide>
 
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image8">
 
                 <b-card-group deck style="color:black;">
 
-                  <b-card :img-src="require('../assets/chocolateoreo.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/chocolateoreo.jpg')" img-alt="chocolateoreo" img-top>
                     <b-card-text>
                       <span>$3.24</span>
                     </b-card-text>
@@ -379,11 +379,11 @@
                 </b-card-group>
               </b-carousel-slide>
 
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image9">
 
                 <b-card-group deck style="color:black;">
                   
-                  <b-card :img-src="require('../assets/ChocolateVanilla.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/ChocolateVanilla.jpg')" img-alt="ChocolateVanilla" img-top>
                     <b-card-text>
                       <span>$4.25</span>
                     </b-card-text>
@@ -397,10 +397,10 @@
               </b-carousel-slide>
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image10">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/Easter.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/Easter.jpg')" img-alt="Easter" img-top>
                     <b-card-text>
                       <span>$3.75</span>
                     </b-card-text>
@@ -411,10 +411,10 @@
                 </b-card-group>
               </b-carousel-slide>
 
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image11">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/Face.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/Face.jpg')" img-alt="Face" img-top>
                     <b-card-text>
                       <span>$3.98</span>
                     </b-card-text>
@@ -426,10 +426,10 @@
               </b-carousel-slide>
 
               
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image12">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/lemon_vanilla.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/lemon_vanilla.jpg')" img-alt="lemon_vanilla" img-top>
                     <b-card-text>
                       <span>$3.45</span>
                     </b-card-text>
@@ -441,10 +441,10 @@
               </b-carousel-slide>
 
 
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image13">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/PrideDay.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/PrideDay.jpg')" img-alt="PrideDay" img-top>
                     <b-card-text>
                       <span>$3.25</span>
                     </b-card-text>
@@ -458,10 +458,10 @@
               </b-carousel-slide>
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image14">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/redvelvetfudge.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/redvelvetfudge.jpg')" img-alt="redvelvetfudge" img-top>
                     <b-card-text>
                       <span>$3.05</span>
                     </b-card-text>
@@ -473,10 +473,10 @@
               </b-carousel-slide>
 
               
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image15">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/StPatricksDay.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/StPatricksDay.jpg')" img-alt="StPatricksDay" img-top>
                     <b-card-text>
                       <span>$4.25</span>
                     </b-card-text>
@@ -488,10 +488,10 @@
               </b-carousel-slide>
 
 
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image16">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/vanillachocolateganache.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/vanillachocolateganache.jpg')" img-alt="vanillachocolateganache" img-top>
                     <b-card-text>
                       <span>$3.21</span>
                     </b-card-text>
@@ -503,10 +503,10 @@
               </b-carousel-slide>
 
               
-              <b-carousel-slide :img-src="require('../assets/mobile.svg')">
+              <b-carousel-slide :img-src="require('../assets/mobile.svg')" img-alt="white background image17">
                 
                 <b-card-group deck style="color:black;">
-                  <b-card :img-src="require('../assets/VanillaStrawberry.jpg')" img-alt="Image" img-top>
+                  <b-card :img-src="require('../assets/VanillaStrawberry.jpg')" img-alt="VanillaStrawberry" img-top>
                     <b-card-text>
                       <span>$3.99</span>
                     </b-card-text>
