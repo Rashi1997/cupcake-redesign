@@ -42,7 +42,7 @@
             </h5></b-row>
         </b-col>
       </b-row>
-      <section class="third text-right">Copyright 2020 @ Rashi Dhar</section>
+      <section class="third text-right">Copyright 2020 @ Me ;)</section>
     </div>
 
     <div class="mobile mobile-styles">
